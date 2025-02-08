@@ -1,13 +1,20 @@
 #Input paths
 
-path_1 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1079_20240801151755.txt" #Davox P1
-path_2 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1080_20240802120040.txt" #Davox P2
-path_3 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1081_20240802135513.txt" #FS FIJA P1
-path_4 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1082_20240805111624.txt" #FS FIJA P2
-path_5 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1083_20240805101000.txt" #FS MOVIL P1
-path_6 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1084_20240805125725.txt" #SCL P1
-path_7 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1086_20240805153333.txt" #SCL P2
+#path_1 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1079_20240801151755.txt" #Davox P1
+#path_2 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1080_20240802120040.txt" #Davox P2
+#path_3 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1081_20240802135513.txt" #FS FIJA P1
+#path_4 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1082_20240805111624.txt" #FS FIJA P2
+#path_5 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1083_20240805101000.txt" #FS MOVIL P1
+#path_6 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1084_20240805125725.txt" #SCL P1
+#path_7 = r"/home/tomas-mur/Documentos/Codigos/payment/datasets/raw/Agosto/Detalle_Ratio_1086_20240805153333.txt" #SCL P2
 
+path_1 = r"~/buckets/b1/datasets/Detalle_Ratio_1079_20240801151755.txt" #Davox P1
+path_2 = r"~/buckets/b1/datasets/Detalle_Ratio_1080_20240802120040.txt" #Davox P2
+path_3 = r"~/buckets/b1/datasets/Detalle_Ratio_1081_20240802135513.txt" #FS FIJA P1
+path_4 = r"~/buckets/b1/datasets/Detalle_Ratio_1082_20240805111624.txt" #FS FIJA P2
+path_5 = r"~/buckets/b1/datasets/Detalle_Ratio_1083_20240805101000.txt" #FS MOVIL P1
+path_6 = r"~/buckets/b1/datasets/Detalle_Ratio_1084_20240805125725.txt" #SCL P1
+path_7 = r"~/buckets/b1/datasets/Detalle_Ratio_1086_20240805153333.txt" #SCL P2
 #Reading each dataset
 
 df_1 = pd.read_csv(path_1 , sep = "|" )
